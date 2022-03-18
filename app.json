@@ -10,6 +10,12 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "assets/mountain.png",
+      "assets/pokeball.png",
+      "assets/pokeballOpen.png"
+    ],
+    
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -24,6 +30,9 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#000000"
     },
     "web": {
       "favicon": "./assets/favicon.png"
